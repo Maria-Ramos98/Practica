@@ -1,0 +1,93 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Hagin';
+    src: url('fonts/HaginCapsMedium-Medium.woff');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'calibri';
+    src: url('fonts/HaginCapsMedium-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'calibri';
+    src: url('fonts/HaginCapsMedium-Medium.ttf');
+}
+
+header {
+    height: 100%;
+    overflow: hidden;
+    background: url('images/sketching-webdesign.jpg') no-repeat top;
+    background-size: cover;
+}
+
+.container {
+    width: 45%;
+    height: 60%;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.marca {
+    width: fit-content;
+    font-family: PT Sans;
+    font-size: 2.5rem;
+    color: rgb(8, 2, 2);
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.titulo {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-family: Hagin;
+    font-size: 5rem;
+    letter-spacing: .2rem;
+    text-align: initial;
+    color: rgb(7, 2, 2);
+}
+
+.aviso {
+    width: 90%;
+    margin-top: 10px;
+    font-family: calibri;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: left;
+    color: rgb(7, 1, 1);
+}
+
+.cta {
+    position: absolute;
+    bottom: 20%;
+    right: 7%;
+}
+
+.cta a {
+    border: solid;
+    font-family: calibri;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgba(182, 174, 255, 0.6);
+    color: rgb(1, 2, 5);
+}
+
+.cta a:hover {
+    color: rgb(51, 50, 50);
+    background-color: rgba(74, 84, 231, 0.329);
+}
